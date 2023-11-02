@@ -12,7 +12,7 @@ Product.belongsTo(Category, {
 
 
 Category.hasMany(Product, {
-  foreignKey: 'product_id',
+  foreignKey: 'category_id',
 });
 
 Product.belongsToMany(Category,{
